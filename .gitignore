@@ -1,0 +1,32 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+settings.json
+inquiries.json
+*.jpeg
+*.jpg
+*.png
+*.jfif
+school.db
+*.db
+*.bak
+
+# Allow images in public/assets/
+!public/assets/*.jpeg
+!public/assets/*.jpg
+!public/assets/*.png
+!public/assets/*.jfif
+
+# Admin Password History Mirror File
+admin-credentials.local.txt
+active-admin-credentials.local.txt
+active-admin-credentials.live.txt
+
+# Temp & testing files
+.playwright-mcp/
+temp_extract/
